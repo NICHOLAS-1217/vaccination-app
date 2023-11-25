@@ -22,6 +22,7 @@ from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
 import mysql.connector
+
 connection = mysql.connector.connect(
   host="localhost",
   user="root",
